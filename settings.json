@@ -37,7 +37,7 @@
   "workbench.iconTheme": "symbols",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "editor.cursorWidth": 5,
+  "editor.cursorWidth": 5, 
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorStyleInactive": "none",
@@ -69,7 +69,7 @@
     "tab.activeBackground": "#024a7474",
     "activityBarBadge.background": "#FFEB3B",
     "activityBarBadge.foreground": "#000000",
-    "tab.inactiveForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#FFFFFF"
   },
   "highlightOnCopy.backgroundColor": "#11c3d3a6",
   "terminal.integrated.fontSize": 13,
@@ -109,5 +109,9 @@
   "notebook.output.fontFamily": "Cascadia Code PL",
   "chat.editor.fontFamily": "Cascadia Code PL",
   "errorLens.fontFamily": "Cascadia Code PL",
-  "markdown.preview.fontFamily": "Cascadia Code PL"
+  "markdown.preview.fontFamily": "Cascadia Code PL",
+  "vscode_custom_css.imports": [
+    "file:///home/josh/Documents/custom-vscode.css",
+    "file:///home/josh/Documents/custom-vscode.js"
+  ]
 }
