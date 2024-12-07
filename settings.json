@@ -35,7 +35,6 @@
   "editor.lineHeight": 1.8,
   "workbench.colorTheme": "Tokyo Night",
   "workbench.iconTheme": "symbols",
-  "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
   "editor.cursorWidth": 5, 
   "terminal.integrated.cursorBlinking": true,
@@ -43,7 +42,7 @@
   "terminal.integrated.cursorStyleInactive": "none",
   "terminal.integrated.cursorWidth": 3,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.glyphMargin": true,
+  "editor.glyphMargin": false,
   "workbench.productIconTheme": "fluent-icons",
   "terminal.integrated.mouseWheelZoom": true,
   "terminal.integrated.tabs.defaultIcon": "file-add",
@@ -70,7 +69,7 @@
     "activityBarBadge.background": "#FFEB3B",
     "activityBarBadge.foreground": "#000000",
     "tab.inactiveForeground": "#FFFFFF",
-    "sideBar.background": "#16161E"
+    "sideBar.background": "#16161E",
   },
   "highlightOnCopy.backgroundColor": "#11c3d3a6",
   "terminal.integrated.fontSize": 13,
@@ -85,7 +84,6 @@
   "gitlens.blame.fontFamily": "Cascadia Code PL",
   "scm.inputFontFamily": "Cascadia Code PL",
   "git.openRepositoryInParentFolders": "never",
-  "workbench.activityBar.location": "top",
   "workbench.list.smoothScrolling": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.linkedEditing": true,
@@ -113,10 +111,23 @@
   "markdown.preview.fontFamily": "Cascadia Code PL",
   "vscode_custom_css.imports": [
     "file:///home/josh/Documents/custom-vscode.css",
-    "file:///home/josh/Documents/custom-vscode.js"
+    "file:///home/josh/Documents/custom-vscode.js",
+    "file:///home/josh/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
   "console-ninja.featureSet": "Community",
   "workbench.settings.applyToAllProfiles": [
-    
-  ]
+  
+
+  
+  
+  ],
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "remote.portsAttributes": {
+    "5173": {
+      "protocol": "http"
+    }
+  }
 }
